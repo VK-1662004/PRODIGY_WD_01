@@ -166,3 +166,31 @@ ul li{
     /* box-shadow: 10px 10px 10px 10px #000; */
     background: rgb(0 0 0 / 40%);
 }
+
+
+@media screen and (max-width: 767px){
+    .categories{
+        padding: 0px;
+        padding-bottom: 32px;
+    }
+    .categories .left-box{
+        width: 100%;
+    }
+    .categories .right-box{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .categories .contain_info{
+        max-height: 200px;
+    }
+
+
+    .nav_box .Right_box{
+        display: none;
+    }
+    .nav_box {
+        position: relative;
+    }
+    
+
+}
