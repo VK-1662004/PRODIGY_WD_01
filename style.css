@@ -84,6 +84,7 @@ ul li{
     font-weight: 300;
     font-size: 25px;
     letter-spacing: 1px;
+    margin-top: 101px; 
     
 }
 .line{
@@ -103,8 +104,10 @@ ul li{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 5%;
-    padding-bottom: 2%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    margin-right: -224px;
+    margin-left: 36px 
 
 }
 
@@ -156,19 +159,26 @@ ul li{
 .top-contain{
     padding-bottom: 15%;
     padding-top: 15%;
+    margin-bottom: 135px;
 }
 
 
 
 .header{
-    position: sticky;
+    position: fixed; 
     top: 0;
-    /* box-shadow: 10px 10px 10px 10px #000; */
-    background: rgb(0 0 0 / 40%);
+    /* box-shadow: 10px 10px 10px 10px #000;  */
+    background: rgb(0 0 0 / 40%); 
+
+    
+    
 }
 
 
 @media screen and (max-width: 767px){
+    body. {
+        position: fixed;
+    }
     .categories{
         padding: 0px;
         padding-bottom: 32px;
