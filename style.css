@@ -184,13 +184,66 @@ ul li{
         max-height: 200px;
     }
 
-
+    ul li{
+        margin-top: 35px;
+        transition: ease 1s all;
+    }
+    ul li.active{
+        transform: translateX(0) !important;
+    }
     .nav_box .Right_box{
-        display: none;
+        display: block;
     }
     .nav_box {
         position: relative;
     }
     
-
+.header .container{
+    position: relative;
+    overflow: hidden;
 }
+.header .container.active{
+    overflow:visible;
+}
+
+.menu-btn{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 20px;
+    background: none;
+    border: none;
+    border-bottom: solid 2px #ffffffff;
+    cursor: pointer;
+}
+.menu-btn:before, .menu-btn:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #ffffffff;
+    margin: 4.5px 0;
+    transform-origin: 8px 1px;
+    transition: ease .3s all;
+}
+.header .Right_box{
+    position: absolute;
+    right: -31px;
+    top: 100%;
+    height: 500px;
+    background: #000;
+    width: 250px;
+    transform: translateX(100%);
+    transition: ease .3s all;
+    padding-left: 30px;
+}    
+.header .Right_box.active{
+    transform: translateX(0);
+}
+body{
+    background-size: inherit;
+}
+}
+
