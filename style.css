@@ -106,8 +106,8 @@ ul li{
     justify-content: space-between;
     padding-top: 2%;
     padding-bottom: 1%;
-    margin-right: -224px;
-    margin-left: 36px 
+    /* margin-right: -224px;
+    margin-left: 36px  */
 
 }
 
@@ -165,13 +165,13 @@ ul li{
 
 
 .header{
-    position: fixed; 
-    top: 0;
+    /* position: fixed; 
+    top: 0; */
     /* box-shadow: 10px 10px 10px 10px #000;  */
     background: rgb(0 0 0 / 40%); 
-
-    
-    
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 
@@ -185,7 +185,7 @@ ul li{
     }
     .categories .left-box{
         width: 100%;
-        margin:50%
+        margin-top: 10%;
     }
     .categories .right-box{
         width: 100%;
@@ -208,7 +208,7 @@ ul li{
     .nav_box {
         position: relative;
         margin-right: 0px;
-        
+        padding-top: 20px;
     
     }
     
@@ -259,5 +259,9 @@ ul li{
 body{
     background-size: inherit;
 }
+.img{
+    width: 45%;
+}
+
 }
 
