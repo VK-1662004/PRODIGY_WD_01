@@ -185,6 +185,7 @@ ul li{
     }
     .categories .left-box{
         width: 100%;
+        margin:50%
     }
     .categories .right-box{
         width: 100%;
@@ -207,6 +208,7 @@ ul li{
     .nav_box {
         position: relative;
         margin-right: 0px;
+        
     
     }
     
